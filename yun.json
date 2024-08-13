@@ -1,0 +1,28 @@
+{
+  "codeDetect": {
+    "publicConfig": {
+      "ext": [
+        ".js",
+        ".ts",
+        ".jsx",
+        ".tsx",
+        ".vue"
+      ],
+      "alias": {
+        "@": "src"
+      },
+      "include": [
+        "src/**",
+        "assets/**"
+      ],
+      "exclude": [
+        "**/*.spec.js"
+      ]
+    },
+    "entryList": [
+      {
+        "path": "src/pages/*/main.js"
+      }
+    ]
+  }
+}

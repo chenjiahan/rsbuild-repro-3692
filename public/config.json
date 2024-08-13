@@ -1,0 +1,337 @@
+{
+  "content": [
+    {
+      "pattern": "record-drag-fill",
+      "answers": null,
+      "finals": [],
+      "collides": [],
+      "curtains": [],
+      "options": [
+        {
+          "shape": "rect",
+          "index": 0,
+          "width": 110,
+          "height": 110,
+          "x": 243,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png"
+        },
+        {
+          "shape": "rect",
+          "index": 1,
+          "width": 110,
+          "height": 110,
+          "x": 243,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png"
+        },
+        {
+          "shape": "rect",
+          "index": 2,
+          "width": 110,
+          "height": 110,
+          "x": 243,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png"
+        },
+        {
+          "shape": "rect",
+          "index": 3,
+          "width": 110,
+          "height": 110,
+          "x": 243,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png"
+        },
+        {
+          "shape": "rect",
+          "index": 4,
+          "width": 110,
+          "height": 110,
+          "x": 243,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png"
+        },
+        {
+          "shape": "rect",
+          "index": 5,
+          "width": 110,
+          "height": 110,
+          "x": 243,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png"
+        },
+        {
+          "shape": "rect",
+          "index": 6,
+          "width": 110,
+          "height": 110,
+          "x": 243,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png"
+        },
+        {
+          "shape": "rect",
+          "index": 7,
+          "width": 110,
+          "height": 110,
+          "x": 243,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png"
+        },
+        {
+          "shape": "rect",
+          "index": 8,
+          "width": 110,
+          "height": 110,
+          "x": 243,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png"
+        },
+        {
+          "shape": "rect",
+          "index": 9,
+          "width": 110,
+          "height": 110,
+          "x": 243,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png"
+        },
+        {
+          "shape": "rect",
+          "index": 10,
+          "width": 110,
+          "height": 110,
+          "x": 517,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png"
+        },
+        {
+          "shape": "rect",
+          "index": 11,
+          "width": 110,
+          "height": 110,
+          "x": 517,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png"
+        },
+        {
+          "shape": "rect",
+          "index": 12,
+          "width": 110,
+          "height": 110,
+          "x": 517,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png"
+        },
+        {
+          "shape": "rect",
+          "index": 13,
+          "width": 110,
+          "height": 110,
+          "x": 517,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png"
+        },
+        {
+          "shape": "rect",
+          "index": 14,
+          "width": 110,
+          "height": 110,
+          "x": 517,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png"
+        },
+        {
+          "shape": "rect",
+          "index": 15,
+          "width": 110,
+          "height": 110,
+          "x": 517,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png"
+        },
+        {
+          "shape": "rect",
+          "index": 16,
+          "width": 110,
+          "height": 110,
+          "x": 517,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png"
+        },
+        {
+          "shape": "rect",
+          "index": 17,
+          "width": 110,
+          "height": 110,
+          "x": 517,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png"
+        },
+        {
+          "shape": "rect",
+          "index": 18,
+          "width": 110,
+          "height": 110,
+          "x": 517,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png"
+        },
+        {
+          "shape": "rect",
+          "index": 19,
+          "width": 110,
+          "height": 110,
+          "x": 517,
+          "y": 509,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png"
+        },
+        {
+          "shape": "rect",
+          "index": 20,
+          "width": 110,
+          "height": 110,
+          "x": 381,
+          "y": 493,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png"
+        },
+        {
+          "shape": "rect",
+          "index": 21,
+          "width": 110,
+          "height": 110,
+          "x": 381,
+          "y": 493,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png"
+        },
+        {
+          "shape": "rect",
+          "index": 22,
+          "width": 110,
+          "height": 110,
+          "x": 381,
+          "y": 493,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png"
+        },
+        {
+          "shape": "rect",
+          "index": 23,
+          "width": 110,
+          "height": 110,
+          "x": 381,
+          "y": 493,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png"
+        },
+        {
+          "shape": "rect",
+          "index": 24,
+          "width": 110,
+          "height": 110,
+          "x": 381,
+          "y": 493,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png"
+        },
+        {
+          "shape": "rect",
+          "index": 25,
+          "width": 110,
+          "height": 110,
+          "x": 381,
+          "y": 493,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png"
+        },
+        {
+          "shape": "rect",
+          "index": 26,
+          "width": 110,
+          "height": 110,
+          "x": 381,
+          "y": 493,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png"
+        },
+        {
+          "shape": "rect",
+          "index": 27,
+          "width": 110,
+          "height": 110,
+          "x": 381,
+          "y": 493,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png"
+        },
+        {
+          "shape": "rect",
+          "index": 28,
+          "width": 110,
+          "height": 110,
+          "x": 381,
+          "y": 493,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png"
+        },
+        {
+          "shape": "rect",
+          "index": 29,
+          "width": 110,
+          "height": 110,
+          "x": 381,
+          "y": 493,
+          "imageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png",
+          "moveImageId": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png"
+        }
+      ],
+      "curtainFinals": [],
+      "others": {},
+      "recordReplayTitle": "小老师"
+    }
+  ],
+  "resources": {
+    "endVideoUrl": "https://maple-test.fbcontent.cn/public/release/trans/app-CONAN_ZDT_1280X720_MP4/ecb7dfaf-0af6-45af-8c85-20f07c2a9bd3.mp4",
+    "endVideoOriginUrl": "https://conan-test.fbcontent.cn/cullian-resource/y0ej5k6aaysi0xt/fe7c6gwesiabn3x.mp4",
+    "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648071295vvlileiv.png",
+    "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648072052c5pdflyp.png",
+    "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807275sa122iz0m.png",
+    "bg1": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/1626864807033xxx7an710.png",
+    "hint1": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/16268648620396aixlypms.mp3",
+    "feedback1": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-resource/1626864798982INAZI16O4F9/iex6embp9.mp3",
+    "finger": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-common-resource/finger.png",
+    "correct": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-common-resource/correctV2.mp3",
+    "firstEntryAudio": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-common-resource/firstEntryAudio.mp3",
+    "loadingAnimation": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-common-resource/loadingAnimation.png",
+    "phaser.min": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp/phaser.min.js",
+    "recording": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-common-resource/recording.png",
+    "bg0": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-common-resource/bg0.png",
+    "loadBreathAnimation": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-common-resource/loadBreathAnimation.png",
+    "error": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-common-resource/error.mp3",
+    "recordingProcessing": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-common-resource/recordingProcessing.png",
+    "click": "https://conan-test.oss-cn-beijing.aliyuncs.com/webapp-question-common-resource/click.mp3"
+  }
+}
