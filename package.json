@@ -8,8 +8,7 @@
     "coverage": "jest --coverage",
     "analyze": "RSDOCTOR=true rsbuild dev",
     "analyze:prod": "RSDOCTOR=true rsbuild build && npm run checkES6:dist",
-    "build:test": "cross-env WINDOW_ENV=test rsbuild build && npm run checkES6:dist",
-    "build:online": "cross-env WINDOW_ENV=online rsbuild build && npm run checkES6:dist",
+    "build": "rsbuild build && npm run checkES6:dist",
     "serve": "rsbuild dev",
     "checkES6:dist": "eslint --ext .js --no-eslintrc --no-ignore dist"
   },
