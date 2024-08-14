@@ -1,5 +1,6 @@
 module.exports = {
   plugins: {
+    autoprefixer: {},
     'postcss-px-to-viewport-8-plugin': {
       unitToConvert: 'px', //需要转换的单位，默认为"px"
       viewportWidth: 375, // 视窗的宽度，对应的是我们设计稿的宽度
