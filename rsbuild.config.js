@@ -13,12 +13,6 @@ const htmls = {};
 
 ['record-portrait', 'record-replay'].forEach(chapterType => {
   entry[chapterType] = `./src/pages/${chapterType}/main.js`;
-  htmls[chapterType] = {
-    filename: `${chapterType}.html`,
-    templateParameters: {
-      chapterType,
-    },
-  };
 });
 
 export default defineConfig({
@@ -46,9 +40,7 @@ export default defineConfig({
     postcss: opts => {
       // apply cssnano in production build
       if (!isDev) {
-        console.log(opts.postcssOptions?.plugins);
         opts.postcssOptions?.plugins?.push(require('cssnano'));
-        console.log(opts.postcssOptions?.plugins);
       }
     },
   },
@@ -71,12 +63,7 @@ export default defineConfig({
     template: './public/index.html',
   },
   output: {
-    filename: {
-      js: isDev ? '[name].[contenthash].js' : '[name].js',
-    },
-    distPath: {
-      js: '',
-    },
+    filenameHash: false,
     injectStyles: true,
     polyfill: 'entry',
     dataUriLimit: 102400,
