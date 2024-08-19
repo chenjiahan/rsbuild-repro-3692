@@ -9,6 +9,7 @@
     "analyze": "RSDOCTOR=true rsbuild dev",
     "analyze:prod": "RSDOCTOR=true rsbuild build && npm run checkES6:dist",
     "build": "DEBUG=rsbuild rsbuild build && npm run checkES6:dist",
+    "preview": "rsbuild preview",
     "dev": "rsbuild dev",
     "checkES6:dist": "eslint --ext .js --no-eslintrc --no-ignore dist"
   },

@@ -63,7 +63,6 @@ export default defineConfig({
     template: './public/index.html',
   },
   output: {
-    filenameHash: false,
     injectStyles: true,
     polyfill: 'entry',
     dataUriLimit: 102400,
