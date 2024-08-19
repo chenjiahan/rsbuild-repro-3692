@@ -1388,7 +1388,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
   }
-  @media only screen and (max-aspect-ratio: 666/375) and (orientation: landscape) {
+  @media only screen and (max-aspect-ratio: 666/375) {
     .game-wrap .container.game,
     .game-wrap .g-scene-container {
       width: 104.625vh;
@@ -1400,7 +1400,7 @@ body {
   }
 
   /* iPad */
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 2) {
     .game-wrap {
       left: 40%;
       &:before {
@@ -1430,7 +1430,7 @@ body {
   }
 
   /* iPad Pro */
-  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 2) and (orientation: landscape) {
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ratio: 2) {
     .game-wrap {
       left: 40%;
       &:before {
@@ -1482,7 +1482,7 @@ body {
   }
 }
 /* iPad */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-device-pixel-ratio: 2) {
   .recordWrap .finger-wrap {
     width: 15.2vh;
     height: 15.2vh;
@@ -1490,7 +1490,7 @@ body {
 }
 
 /* iPad Pro */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-device-pixel-ratio: 2) {
   .recordWrap .finger-wrap {
     width: 15.2vh;
     height: 15.2vh;

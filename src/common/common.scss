@@ -473,19 +473,3 @@ body,
     opacity: 0;
   }
 }
-
-/* iPad */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  .container {
-    background-position: center !important;
-    background-size: 100% auto !important;
-  }
-}
-
-/* iPad Pro */
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
-  .container {
-    background-position: center !important;
-    background-size: 100% auto !important;
-  }
-}
