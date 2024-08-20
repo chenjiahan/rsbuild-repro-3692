@@ -9,7 +9,6 @@ import { browserslist } from './package.json';
 const isDev = process.env.NODE_ENV === 'development';
 
 const entry = {};
-const htmls = {};
 
 ['record-portrait', 'record-replay'].forEach(chapterType => {
   entry[chapterType] = `./src/pages/${chapterType}/main.js`;
@@ -33,9 +32,6 @@ export default defineConfig({
       output: {
         asyncChunks: false,
       },
-    },
-    htmlPlugin(config, { entryName }) {
-      Object.assign(config, htmls[entryName]);
     },
     postcss: opts => {
       // apply cssnano in production build
