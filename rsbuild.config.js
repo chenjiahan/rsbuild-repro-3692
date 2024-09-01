@@ -29,22 +29,10 @@ export default defineConfig({
         // 仅在 RSDOCTOR 为 true 时注册插件，因为插件会增加构建耗时
         process.env.RSDOCTOR && new RsdoctorRspackPlugin(),
       ].filter(Boolean),
-      output: {
-        asyncChunks: false,
-      },
-    },
-    postcss: opts => {
-      // apply cssnano in production build
-      if (!isDev) {
-        opts.postcssOptions?.plugins?.push(require('cssnano'));
-      }
     },
   },
   source: {
     entry,
-    define: {
-      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-    },
     include: [
       /node_modules[\\/]pinia[\\/]/,
       /node_modules[\\/]uuid[\\/]/,
@@ -59,7 +47,6 @@ export default defineConfig({
     template: './public/index.html',
   },
   output: {
-    injectStyles: true,
     polyfill: 'entry',
     dataUriLimit: 102400,
     legalComments: 'none',
@@ -69,11 +56,6 @@ export default defineConfig({
         'cheap-module-source-map'
         : // 生产模式使用高质量的 source map 格式
         'source-map',
-    },
-  },
-  performance: {
-    chunkSplit: {
-      strategy: isDev ? 'split-by-experience' : 'all-in-one',
     },
   },
 });
