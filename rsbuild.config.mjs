@@ -60,11 +60,11 @@ export default defineConfig({
         : // 生产模式使用高质量的 source map 格式
         'source-map',
     },
-    // filenameHash: false,
-    // distPath: {
-    //   js: '',
-    // },
-    // injectStyles: true,
+    filenameHash: false,
+    distPath: {
+      js: '',
+    },
+    injectStyles: true,
   },
   // performance: {
   //   chunkSplit: {
