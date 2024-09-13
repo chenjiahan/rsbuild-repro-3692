@@ -4,22 +4,21 @@ import { pluginSass } from '@rsbuild/plugin-sass';
 import { pluginCheckSyntax } from '@rsbuild/plugin-check-syntax';
 import { RsdoctorRspackPlugin } from '@rsdoctor/rspack-plugin';
 
-import { browserslist } from './package.json';
-
 const isDev = process.env.NODE_ENV === 'development';
 
-const entry = {};
+const entry = {
+  'ts-page': './src/pages/ts-page/entry.ts',
+};
 
-['record-portrait', 'record-replay'].forEach(chapterType => {
-  entry[chapterType] = `./src/pages/${chapterType}/main.js`;
-});
+// ['record-portrait', 'record-replay', 'record-aigc'].forEach(chapterType => {
+//   entry[chapterType] = `./src/pages/${chapterType}/main.js`;
+// });
 
 export default defineConfig({
   plugins: [
     pluginVue2(),
     pluginSass(),
     pluginCheckSyntax({
-      targets: browserslist,
       ecmaVersion: 5,
     }),
   ],
@@ -41,9 +40,9 @@ export default defineConfig({
       /node_modules[\\/]uuid[\\/]/,
       /node_modules[\\/]@vue[\\/]devtools-api[\\/]/,
     ],
-    alias: {
-      '@': './src',
-    },
+    // alias: {
+    //   '@': './src',
+    // },
   },
   html: {
     mountId: 'app',
