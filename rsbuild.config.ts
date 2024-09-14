@@ -40,6 +40,7 @@ export default defineConfig({
       /node_modules[\\/]uuid[\\/]/,
       /node_modules[\\/]@vue[\\/]devtools-api[\\/]/,
     ],
+    decorators: { version: 'legacy' }
     // alias: {
     //   '@': './src',
     // },

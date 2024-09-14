@@ -6,7 +6,7 @@
 <script lang="ts">
 import { Component, Vue, Ref } from 'vue-property-decorator';
 
-@Component
+@Component({})
 export default class AIPracticeExpress extends Vue {
   @Ref('container') public container!: HTMLElement;
 

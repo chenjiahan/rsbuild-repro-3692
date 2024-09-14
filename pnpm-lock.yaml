@@ -49,17 +49,17 @@ importers:
         specifier: ^7.25.3
         version: 7.25.3(@babel/core@7.25.2)
       '@rsbuild/core':
-        specifier: 1.0.2
-        version: 1.0.2
+        specifier: ^1.0.4
+        version: 1.0.4
       '@rsbuild/plugin-check-syntax':
         specifier: ^1.0.1
-        version: 1.0.1(@rsbuild/core@1.0.2)
+        version: 1.0.1(@rsbuild/core@1.0.4)
       '@rsbuild/plugin-sass':
         specifier: ^1.0.1
-        version: 1.0.1(@rsbuild/core@1.0.2)
+        version: 1.0.1(@rsbuild/core@1.0.4)
       '@rsbuild/plugin-vue2':
         specifier: ^1.0.1
-        version: 1.0.1(@rsbuild/core@1.0.2)(css-loader@7.1.2(@rspack/core@1.0.5(@swc/helpers@0.5.13))(webpack@5.93.0))(lodash@4.17.21)(prettier@2.8.8)(vue-template-compiler@2.7.16)
+        version: 1.0.1(@rsbuild/core@1.0.4)(css-loader@7.1.2(@rspack/core@1.0.5(@swc/helpers@0.5.13))(webpack@5.93.0))(lodash@4.17.21)(prettier@2.8.8)(vue-template-compiler@2.7.16)
       '@rsdoctor/rspack-plugin':
         specifier: ^0.4.2
         version: 0.4.2(@rspack/core@1.0.5(@swc/helpers@0.5.13))(webpack@5.93.0)
@@ -890,8 +890,8 @@ packages:
   '@polka/url@1.0.0-next.25':
     resolution: {integrity: sha512-j7P6Rgr3mmtdkeDGTe0E/aYyWEWVtc5yFXtHCRHs28/jptDEWfaVOc5T7cblqy1XKPPfCxJc/8DwQ5YgLOZOVQ==}
 
-  '@rsbuild/core@1.0.2':
-    resolution: {integrity: sha512-kEHmNj4QjDoqvyswEiz8gJCdc2Yo4SXlQD+TnY7ch8pTVs6kLnXRa1KclFLCdgwYnikYvvPsbBERSF8Y2I3KDg==}
+  '@rsbuild/core@1.0.4':
+    resolution: {integrity: sha512-ACvCzeyW5gW5olGBzK5Tnc5RfUOQ+BPnMB7Y0Iycz0pRYAghKQcYkpPZlEpdsKQDNeBUKk9loOy+Z7Rca4Ouzw==}
     engines: {node: '>=16.7.0'}
     hasBin: true
 
@@ -5435,7 +5435,7 @@ snapshots:
 
   '@polka/url@1.0.0-next.25': {}
 
-  '@rsbuild/core@1.0.2':
+  '@rsbuild/core@1.0.4':
     dependencies:
       '@rspack/core': 1.0.5(@swc/helpers@0.5.13)
       '@rspack/lite-tapable': 1.0.0
@@ -5445,7 +5445,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  '@rsbuild/plugin-check-syntax@1.0.1(@rsbuild/core@1.0.2)':
+  '@rsbuild/plugin-check-syntax@1.0.1(@rsbuild/core@1.0.4)':
     dependencies:
       acorn: 8.12.1
       browserslist-to-es-version: 1.0.0
@@ -5453,23 +5453,23 @@ snapshots:
       picocolors: 1.0.1
       source-map: 0.7.4
     optionalDependencies:
-      '@rsbuild/core': 1.0.2
+      '@rsbuild/core': 1.0.4
 
-  '@rsbuild/plugin-sass@1.0.1(@rsbuild/core@1.0.2)':
+  '@rsbuild/plugin-sass@1.0.1(@rsbuild/core@1.0.4)':
     dependencies:
-      '@rsbuild/core': 1.0.2
+      '@rsbuild/core': 1.0.4
       deepmerge: 4.3.1
       loader-utils: 2.0.4
       postcss: 8.4.45
       reduce-configs: 1.0.0
       sass-embedded: 1.78.0
 
-  '@rsbuild/plugin-vue2@1.0.1(@rsbuild/core@1.0.2)(css-loader@7.1.2(@rspack/core@1.0.5(@swc/helpers@0.5.13))(webpack@5.93.0))(lodash@4.17.21)(prettier@2.8.8)(vue-template-compiler@2.7.16)':
+  '@rsbuild/plugin-vue2@1.0.1(@rsbuild/core@1.0.4)(css-loader@7.1.2(@rspack/core@1.0.5(@swc/helpers@0.5.13))(webpack@5.93.0))(lodash@4.17.21)(prettier@2.8.8)(vue-template-compiler@2.7.16)':
     dependencies:
       vue-loader: 15.11.1(css-loader@7.1.2(@rspack/core@1.0.5(@swc/helpers@0.5.13))(webpack@5.93.0))(lodash@4.17.21)(prettier@2.8.8)(vue-template-compiler@2.7.16)(webpack@5.93.0)
       webpack: 5.93.0
     optionalDependencies:
-      '@rsbuild/core': 1.0.2
+      '@rsbuild/core': 1.0.4
     transitivePeerDependencies:
       - '@swc/core'
       - '@vue/compiler-sfc'
@@ -6409,7 +6409,7 @@ snapshots:
   caniuse-api@3.0.0:
     dependencies:
       browserslist: 4.23.3
-      caniuse-lite: 1.0.30001651
+      caniuse-lite: 1.0.30001660
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
