@@ -1,6 +1,7 @@
 <template>
   <div class="container" ref="container">
     <star-card :star-count="3"></star-card>
+    <div class="star">star</div>
     <van-tag type="primary">标签</van-tag>
   </div>
 </template>
@@ -23,5 +24,8 @@ export default {
   left: 0;
   width: 100vw;
   height: 100vh;
+}
+.star {
+  width: 40px;
 }
 </style>
