@@ -445,7 +445,6 @@ export default {
     },
   },
   mounted() {
-    throw new Error('Method not implemented.');
     this.$logger.writeAndSend('record_replay_mounted');
     this.fadeInTimer = setTimeout(() => {
       this.breathAniStatus = 1;

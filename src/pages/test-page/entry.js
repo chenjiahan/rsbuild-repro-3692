@@ -1,6 +1,9 @@
-import 'whatwg-fetch'; // pixi.js 7 依赖 fetch
 import Vue from 'vue';
 import App from './index.vue';
+import Tag from 'vant/lib/tag';
+import 'vant/lib/tag/style';
+
+Vue.use(Tag);
 
 Vue.config.productionTip = false;
 

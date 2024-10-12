@@ -7,7 +7,7 @@ import { RsdoctorRspackPlugin } from '@rsdoctor/rspack-plugin';
 const isDev = process.env.NODE_ENV === 'development';
 
 const entry = {
-  'ts-page': './src/pages/ts-page/entry.ts',
+  'test-page': './src/pages/test-page/entry.js',
 };
 
 // ['record-portrait', 'record-replay', 'record-aigc'].forEach(chapterType => {
@@ -18,6 +18,7 @@ export default defineConfig({
   plugins: [
     pluginVue2(),
     pluginSass(),
+    // pluginLess(),
     pluginCheckSyntax({
       ecmaVersion: 5,
     }),
@@ -32,6 +33,7 @@ export default defineConfig({
       //   asyncChunks: false,
       // },
     },
+    // lightningcssLoader: false,
   },
   source: {
     entry,
@@ -60,11 +62,11 @@ export default defineConfig({
         : // 生产模式使用高质量的 source map 格式
         'source-map',
     },
-    filenameHash: false,
-    distPath: {
-      js: '',
-    },
-    injectStyles: true,
+    // filenameHash: false,
+    // distPath: {
+    //   js: '',
+    // },
+    // injectStyles: true,
   },
   // performance: {
   //   chunkSplit: {
