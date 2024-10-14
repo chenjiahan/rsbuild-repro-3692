@@ -1,7 +1,6 @@
 module.exports = {
   plugins: {
-    autoprefixer: {},
-    'postcss-px-to-viewport-8-plugin': {
+    'cnjm-postcss-px-to-viewport': {
       unitToConvert: 'px', //需要转换的单位，默认为"px"
       viewportWidth: 375, // 视窗的宽度，对应的是我们设计稿的宽度
       viewportHeight: 667, //视窗的高度，根据375设备的宽度来指定，一般指定667，也可以不配置
