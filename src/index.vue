@@ -1,20 +1,15 @@
 <template>
   <div class="container" ref="container">
     <star-card :star-count="3"></star-card>
-    <div class="star">star</div>
-    <van-tag type="primary">标签</van-tag>
   </div>
 </template>
 
 <script>
-import { StarCard } from '@repo/ui';
+import StarCard from './Foo.vue';
 
 export default {
-  components: {StarCard},
-  mounted() {
-    console.log(this.$refs.container);
-  }
-}
+  components: { StarCard },
+};
 </script>
 
 <style lang="scss" scoped>
